@@ -1,3 +1,9 @@
+# For the below program, I have created a simple function it takes directory
+# as input. *** The directory should be relative to current path ***
+# Then the program goes on reading the files in the given directory
+# result is a structure that keeps the count associated with the string
+# then the result is printed in descending order
+
 countFileTypes() {
     local directory="$1"
     declare -A fileCounts
